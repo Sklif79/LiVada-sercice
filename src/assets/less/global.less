@@ -1,0 +1,109 @@
+/************************* Общие стили *************************/
+html {
+    font-size: 16px;
+}
+
+html,
+body {
+    min-height: 100vh;
+    font-family: 'Geometria', sans-serif;
+}
+
+body {
+    font-size: 1rem;
+}
+
+h1 {
+}
+
+h2 {
+    line-height: 1.875rem;
+    font-size: 1.75rem;
+    color: #424DFF;
+    font-weight: bold;
+}
+
+h3 {
+    line-height: 1.875rem;
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+
+img {
+    max-width: 100%;
+}
+
+a:not([class]){
+    /*color: @link-blue;*/
+}
+
+input[type='submit'] {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+b {
+    font-weight: 500;
+}
+
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn {
+    background: #424DFF;
+    color: #fff;
+    height: 44px;
+    line-height: 44px;
+    display: inline-block;
+    transition: @transition;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #343FED;
+}
+
+.popup {
+    display: none;
+}
+
+.clear-gap {
+    font-size: 0;
+    line-height: 0;
+}
+
+.fancybox-close {
+    top: 11px;
+    right: 11px;
+    width: 25px;
+    height: 25px;
+    background: url("../images/close-btn.png") center no-repeat;
+    transition: @transition;
+    
+    &:hover {
+        background-image: url("../images/close-btn-hover.png");
+    }
+}
+
