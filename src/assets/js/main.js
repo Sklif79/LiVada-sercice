@@ -148,7 +148,7 @@ $(document).ready(function () {
             myMap = new ymaps.Map("map", {
                 center: [53.928, 27.69852],
                 zoom: 17,
-                controls: []
+                // controls: []
             });
 
             myPlacemark = new ymaps.Placemark([53.928206, 27.703298], {
